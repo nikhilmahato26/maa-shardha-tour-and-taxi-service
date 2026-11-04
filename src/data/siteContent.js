@@ -62,6 +62,11 @@ export const services = [
     title: 'Hyundai Aura',
     description:
       'Compact, stylish and fuel-efficient sedan for local Indore commutes, airport runs and pocket-friendly trips.',
+    pricing: {
+      dailyRate: '₹3,000',
+      perKm: '₹12 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['4+1 Seater', 'AC Sedan', 'Ample Boot Space', 'Local & Outstation'],
     images: ['/images/vehicles/aura.png'],
   },
@@ -71,6 +76,11 @@ export const services = [
     title: 'Maruti Suzuki Dzire',
     description:
       'India’s most reliable sedan offering plush seating, smooth highway performance and top-tier fuel economy.',
+    pricing: {
+      dailyRate: '₹3,000',
+      perKm: '₹12 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['4+1 Seater', 'AC Sedan', 'Smooth Suspension', 'Intercity Travel'],
     images: ['/images/vehicles/dzire.png'],
   },
@@ -80,6 +90,11 @@ export const services = [
     title: 'Maruti Suzuki Ertiga',
     description:
       'Spacious and versatile 7-seater MPV perfect for family vacations, temple tours and comfortable group rides.',
+    pricing: {
+      dailyRate: '₹3,750',
+      perKm: '₹15 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['6+1 Seater', 'Roof AC Vents', 'Foldable 3rd Row', 'Family Favorite'],
     images: ['/images/vehicles/ertiga.png'],
   },
@@ -89,6 +104,11 @@ export const services = [
     title: 'Kia Carens',
     description:
       'Executive-class 6/7 seater MPV with refined leatherette seating, dual-zone AC and cutting-edge highway comfort.',
+    pricing: {
+      dailyRate: '₹4,000',
+      perKm: '₹16 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['6/7 Seater', 'Premium Cabin', 'Automatic Climate', 'VIP Experience'],
     images: ['/images/vehicles/carens.png'],
   },
@@ -98,6 +118,11 @@ export const services = [
     title: 'Toyota Innova Crysta',
     description:
       'The undisputed king of intercity travel. Reclining captain chairs, premium safety and effortless power.',
+    pricing: {
+      dailyRate: '₹5,000',
+      perKm: '₹20 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['7+1 Seater', 'Captain Seats', 'Premium SUV/MPV', 'King of the Road'],
     images: [
       '/images/vehicles/innova_crysta.png',
@@ -111,6 +136,11 @@ export const services = [
     title: 'Tempo Traveller – 17 Seater',
     description:
       'High-roof 17-seater Tempo Traveller with plush push-back seats, chilled AC, music system and ample luggage room.',
+    pricing: {
+      dailyRate: '₹7,000',
+      perKm: '₹28 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['17 Seater', 'Push-Back Seats', 'High Roof AC', 'Pilgrimage & Groups'],
     images: [
       '/images/vehicles/tempo_traveller.png',
@@ -126,6 +156,11 @@ export const services = [
     title: 'Tempo Traveller – 26 Seater',
     description:
       'Large 26-seater luxury traveller for large group pilgrimages, wedding guest convoys and corporate offsites.',
+    pricing: {
+      dailyRate: '₹8,500',
+      perKm: '₹34 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['26 Seater', 'Push-Back Recliners', 'Dual AC', 'Large Groups'],
     images: [
       '/images/vehicles/tempo_traveller.png',
@@ -141,6 +176,11 @@ export const services = [
     title: 'Force Urbania',
     description:
       'Ultra-luxury Force Urbania with bespoke maharaja recliners, individual charging ports, ambient mood lighting and panoramic view.',
+    pricing: {
+      dailyRate: '₹9,000',
+      perKm: '₹36 / km',
+      minKm: '250 km / day minimum',
+    },
     tags: ['12 / 16 Seater', 'Maharaja Recliners', 'Ambient Lighting', 'VIP Luxury Van'],
     images: [
       '/images/vehicles/force_urbania.png',
@@ -156,6 +196,11 @@ export const services = [
     title: 'Luxury Bus',
     description:
       'Deluxe 35 to 52 seater luxury buses and coaches for grand weddings, school/college excursions and corporate tours.',
+    pricing: {
+      dailyRate: 'On Request',
+      perKm: 'Custom Quote',
+      minKm: 'Best rates for events & tours',
+    },
     tags: ['35–52 Seater', 'AC Luxury Coach', 'Air Suspension', 'Weddings & Events'],
     images: [
       '/images/vehicles/luxury_bus.png',
@@ -280,6 +325,10 @@ export const faqs = [
   {
     q: 'How do I book a taxi or Tempo Traveller?',
     a: 'You can instantly book by calling us at +91 70000 23165 or +91 91656 00957, sending a WhatsApp message, or submitting the quick booking form on this page.',
+  },
+  {
+    q: 'What are your taxi and rental rates per km and per day?',
+    a: 'Our transparent fares start at ₹12/km (₹3,000/day min 250km) for Hyundai Aura and Maruti Dzire, ₹15/km (₹3,750/day) for Ertiga, ₹16/km (₹4,000/day) for Kia Carens, ₹20/km (₹5,000/day) for Innova Crysta, ₹28/km (₹7,000/day) for 17-seater Tempo Traveller, ₹34/km (₹8,500/day) for 26-seater Tempo Traveller, and ₹36/km (₹9,000/day) for Force Urbania. Luxury buses are quoted on request.',
   },
   {
     q: 'Are your rates transparent with no hidden costs?',

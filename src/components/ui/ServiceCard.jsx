@@ -71,12 +71,35 @@ export default function ServiceCard({ service }) {
           {service.description}
         </p>
 
+        {service.pricing && (
+          <div className="mt-4 flex items-center justify-between rounded-2xl bg-navy-50/80 px-4 py-3 ring-1 ring-gold/25">
+            <div>
+              <div className="flex items-baseline gap-1">
+                <span className="font-display text-2xl font-bold text-navy">
+                  {service.pricing.dailyRate}
+                </span>
+                {service.pricing.dailyRate !== 'On Request' && (
+                  <span className="text-xs font-semibold text-navy/60">/ day</span>
+                )}
+              </div>
+              <span className="text-[0.72rem] font-medium text-navy/55">
+                {service.pricing.minKm}
+              </span>
+            </div>
+            <div className="text-right">
+              <span className="inline-flex items-center rounded-full bg-navy-deep px-3 py-1 text-xs font-bold text-gold-soft shadow-soft">
+                {service.pricing.perKm}
+              </span>
+            </div>
+          </div>
+        )}
+
         {service.tags && (
           <div className="mt-4 flex flex-wrap gap-2">
             {service.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-navy-50 px-3 py-1 text-xs font-semibold text-navy ring-1 ring-gold/25"
+                className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-navy/80 ring-1 ring-navy/10"
               >
                 {tag}
               </span>
@@ -85,7 +108,7 @@ export default function ServiceCard({ service }) {
         )}
 
         <a
-          href={whatsappLink(vehicleEnquiry(service.title))}
+          href={whatsappLink(vehicleEnquiry(service.title, service.pricing?.dailyRate, service.pricing?.perKm))}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-gold-deep"

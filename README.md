@@ -7,16 +7,18 @@ A modern, high-conversion **tour & taxi service** website for
 - **Email**: maashardatourandtaxiservice@gmail.com
 - **Address**: 965 Shree Krishna Enclave, Ujjain Road, Indore, MP
 
-### 🚘 Vehicle Fleet
-- Hyundai Aura
-- Maruti Suzuki Dzire
-- Maruti Suzuki Ertiga
-- Kia Carens
-- Toyota Innova Crysta
-- Tempo Traveller – 17 Seater
-- Tempo Traveller – 26 Seater
-- Force Urbania
-- Luxury Bus
+### 🚘 Vehicle Fleet & Tariff (250 km / day minimum)
+| Vehicle | Daily Rate | Per Km Rate |
+| :--- | :--- | :--- |
+| **Hyundai Aura** | ₹3,000 / day | ₹12 / km |
+| **Maruti Suzuki Dzire** | ₹3,000 / day | ₹12 / km |
+| **Maruti Suzuki Ertiga** | ₹3,750 / day | ₹15 / km |
+| **Kia Carens** | ₹4,000 / day | ₹16 / km |
+| **Toyota Innova Crysta** | ₹5,000 / day | ₹20 / km |
+| **Tempo Traveller – 17 Seater** | ₹7,000 / day | ₹28 / km |
+| **Tempo Traveller – 26 Seater** | ₹8,500 / day | ₹34 / km |
+| **Force Urbania** | ₹9,000 / day | ₹36 / km |
+| **Luxury Bus** | On Request | Custom Quote |
 
 ---
 

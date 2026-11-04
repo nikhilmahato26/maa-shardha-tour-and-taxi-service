@@ -17,8 +17,9 @@ export function mailLink(subject = 'Booking enquiry — Maa Shardha Tour and Tax
 }
 
 /** Prebuilt WhatsApp message for a specific vehicle/service. */
-export function vehicleEnquiry(name) {
-  return `Hi Maa Shardha Tour & Taxi Service! I'd like to book the ${name}. Please share availability and details.`;
+export function vehicleEnquiry(name, rate, perKm) {
+  const rateText = rate && rate !== 'On Request' && perKm ? ` (${rate}/day • ${perKm})` : '';
+  return `Hi Maa Shardha Tour & Taxi Service! I'd like to book the ${name}${rateText}. Please share availability and details.`;
 }
 
 /** Prebuilt WhatsApp message for a package. */

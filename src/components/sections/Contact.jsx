@@ -225,8 +225,8 @@ export default function Contact() {
                         Select vehicle
                       </option>
                       {services.map((s) => (
-                        <option key={s.id} value={s.title}>
-                          {s.title}
+                        <option key={s.id} value={`${s.title}${s.pricing?.dailyRate ? ` (${s.pricing.dailyRate}/day)` : ''}`}>
+                          {s.title} {s.pricing && s.pricing.dailyRate !== 'On Request' ? `— ${s.pricing.dailyRate}/day (${s.pricing.perKm})` : ''}
                         </option>
                       ))}
                     </select>
