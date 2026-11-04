@@ -5,7 +5,7 @@ A modern, high-conversion **tour & taxi service** website for
 
 - **Phone**: +91 70000 23165, +91 91656 00957
 - **Email**: maashardatourandtaxiservice@gmail.com
-- **Address**: 965C Shree Krishna Enclave, Ujjain Road, Indore, MP
+- **Address**: 965 Shree Krishna Enclave, Ujjain Road, Indore, MP
 
 ### 🚘 Vehicle Fleet
 - Hyundai Aura

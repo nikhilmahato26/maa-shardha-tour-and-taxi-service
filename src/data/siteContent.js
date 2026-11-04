@@ -16,7 +16,7 @@ export const business = {
   whatsapp: '917000023165', // wa.me format, no '+'
   email: 'maashardatourandtaxiservice@gmail.com',
   website: 'www.maashardhatourandtaxiservice.com',
-  address: '965C Shree Krishna Enclave, Ujjain Road, Indore, MP',
+  address: '965 Shree Krishna Enclave, Ujjain Road, Indore, MP',
   city: 'Indore, Madhya Pradesh',
   hours: 'Available 24 / 7',
 };
@@ -271,7 +271,7 @@ export const faqs = [
   },
   {
     q: 'Where is your office located in Indore?',
-    a: 'Our registered office is located at 965C Shree Krishna Enclave, Ujjain Road, Indore, Madhya Pradesh. We provide doorstep pickup all across Indore city and airport.',
+    a: 'Our registered office is located at 965 Shree Krishna Enclave, Ujjain Road, Indore, Madhya Pradesh. We provide doorstep pickup all across Indore city and airport.',
   },
   {
     q: 'Do you provide Devi Ahilyabai Holkar Airport transfers?',
