@@ -23,15 +23,15 @@ export default function CTA() {
 
           <div className="relative mx-auto max-w-2xl">
             <span className="inline-flex items-center gap-2 rounded-full glass-dark px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-gold-soft">
-              Your Happy Journey Awaits
+              Your Reliable Journey Awaits
             </span>
             <h2 className="mt-6 text-balance font-display text-3xl font-semibold leading-tight text-white sm:text-5xl">
-              Ready to Travel in{' '}
-              <span className="text-gold-gradient italic">Pure Luxury?</span>
+              Ready to Travel with{' '}
+              <span className="text-gold-gradient italic">Maa Shardha?</span>
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-white/75">
-              Premium vehicles, professional drivers and seamless service. Book in
-              minutes on WhatsApp or give us a call — we're available 24/7.
+              Comfortable sedans, spacious MPVs, Tempo Travellers, Urbania and luxury buses. Book in
+              minutes on WhatsApp or give us a call — we're available 24/7 in Indore.
             </p>
 
             <div className="mt-9 flex flex-wrap justify-center gap-4">

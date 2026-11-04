@@ -71,14 +71,16 @@ export default function MobileMenu({ open, onClose }) {
               >
                 <Phone className="h-5 w-5" /> {business.phones[0].display}
               </a>
-              <a
-                href={business.instagramUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 rounded-full gold-border py-3 text-sm font-semibold text-gold-deep"
-              >
-                <FaInstagram className="h-4 w-4" /> {business.instagram}
-              </a>
+              {business.instagramUrl && (
+                <a
+                  href={business.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 rounded-full gold-border py-3 text-sm font-semibold text-gold-deep"
+                >
+                  <FaInstagram className="h-4 w-4" /> {business.instagram}
+                </a>
+              )}
             </div>
           </motion.aside>
         </>

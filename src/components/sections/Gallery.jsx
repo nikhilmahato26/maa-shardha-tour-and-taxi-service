@@ -36,7 +36,7 @@ export default function Gallery() {
             >
               <img
                 src={item.image}
-                alt={`${item.label} — Happy Luxe Travels`}
+                alt={`${item.label} — Maa Shardha Tour and Taxi Service`}
                 loading="lazy"
                 className="h-full w-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-110"
               />

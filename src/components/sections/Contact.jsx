@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form';
 import { motion } from 'framer-motion';
-import { Phone, Mail, Globe, Instagram, Clock, Send, CheckCircle2 } from 'lucide-react';
+import { Phone, Mail, Globe, Instagram, Clock, Send, CheckCircle2, MapPin } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { business, services } from '../../data/siteContent';
 import { whatsappLink, telLink, mailLink, GENERAL_ENQUIRY } from '../../utils/whatsapp';
@@ -32,7 +32,7 @@ export default function Contact() {
 
   const onSubmit = (data) => {
     const message = [
-      `*New Booking Enquiry — Happy Luxe Travels*`,
+      `*New Booking Enquiry — Maa Shardha Tour and Taxi Service*`,
       `Name: ${data.name}`,
       `Phone: ${data.phone}`,
       `Pickup: ${data.pickup}`,
@@ -56,8 +56,8 @@ export default function Contact() {
       href: `tel:${p.tel}`,
     })),
     { icon: Mail, label: 'Email', value: business.email, href: mailLink() },
+    { icon: MapPin, label: 'Office Address', value: business.address },
     { icon: Globe, label: 'Website', value: business.website, href: `https://${business.website}` },
-    { icon: Instagram, label: 'Instagram', value: business.instagram, href: business.instagramUrl },
     { icon: Clock, label: 'Hours', value: business.hours },
   ];
 

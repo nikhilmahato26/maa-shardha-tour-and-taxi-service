@@ -12,10 +12,10 @@ export default function CampervanHighlight() {
       <div className="container-x relative">
         <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={viewport}>
           <SectionTitle
-            eyebrow="We Provide"
-            title="Luxury Campervans &"
-            highlight="Travel Vans"
-            subtitle="Experience the freedom of the open road in our premium campervans and luxury travel vans — fully equipped for unforgettable journeys."
+            eyebrow="Flagship Comfort"
+            title="Force Urbania &"
+            highlight="Luxury Travel Vans"
+            subtitle="Experience sheer luxury and top-tier comfort on your pilgrimage tours, corporate trips and family outings with our premium Force Urbania."
             light
           />
         </motion.div>

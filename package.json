@@ -1,9 +1,9 @@
 {
-  "name": "happy-luxe-travels",
+  "name": "maa-shardha-tour-and-taxi-service",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Premium luxury travel & transportation website for Happy Luxe Travels (HLT).",
+  "description": "Website for Maa Shardha Tour and Taxi Service (MST), Indore MP.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

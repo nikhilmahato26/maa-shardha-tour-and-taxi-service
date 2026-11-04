@@ -10,10 +10,10 @@ export default function Services() {
       <span className="pointer-events-none absolute right-0 top-1/4 h-96 w-96 rounded-full bg-gold/5 blur-3xl" />
       <div className="container-x relative">
         <SectionTitle
-          eyebrow="Our Services"
-          title="Luxury Travel,"
-          highlight="Every Way"
-          subtitle="From Urbania luxury vans to premium SUVs and airport transfers — the right vehicle for every journey."
+          eyebrow="Our Fleet – Vehicle Options"
+          title="Choose Your"
+          highlight="Ideal Vehicle"
+          subtitle="From sedans and Ertiga to Innova Crysta, Tempo Travellers, Force Urbania and luxury buses — we have the perfect ride for every journey."
         />
         <motion.div
           variants={staggerContainer(0.1)}

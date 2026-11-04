@@ -11,10 +11,10 @@ export default function WhyChooseUs() {
       <span className="pointer-events-none absolute -left-20 bottom-10 h-80 w-80 rounded-full bg-navy/5 blur-3xl" />
       <div className="container-x relative">
         <SectionTitle
-          eyebrow="Why Happy Luxe"
-          title="The HLT"
+          eyebrow="Why Maa Shardha"
+          title="The Maa Shardha"
           highlight="Promise"
-          subtitle="A premium travel partner you can trust — for every ride, every time."
+          subtitle="A trusted tour and taxi partner in Indore & Madhya Pradesh — dependable for every journey, every time."
         />
         <motion.div
           variants={staggerContainer(0.08)}

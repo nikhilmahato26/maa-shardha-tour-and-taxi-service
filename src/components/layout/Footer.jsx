@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, Globe, Clock } from 'lucide-react';
+import { Phone, Mail, Globe, Clock, MapPin } from 'lucide-react';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { business, footer } from '../../data/siteContent';
 import { whatsappLink, telLink, mailLink, GENERAL_ENQUIRY } from '../../utils/whatsapp';
@@ -34,15 +34,17 @@ export default function Footer() {
             >
               <FaWhatsapp className="h-4 w-4" />
             </a>
-            <a
-              href={business.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-gold hover:text-navy"
-            >
-              <FaInstagram className="h-4 w-4" />
-            </a>
+            {business.instagramUrl && (
+              <a
+                href={business.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-gold hover:text-navy"
+              >
+                <FaInstagram className="h-4 w-4" />
+              </a>
+            )}
           </div>
         </motion.div>
 
@@ -91,6 +93,10 @@ export default function Footer() {
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-gold-soft" />
                 {business.email}
               </a>
+            </li>
+            <li className="flex items-start gap-3">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold-soft" />
+              <span>{business.address}</span>
             </li>
             <li>
               <a

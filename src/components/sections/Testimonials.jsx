@@ -19,7 +19,7 @@ export default function Testimonials() {
           eyebrow="Guest Stories"
           title="Loved by"
           highlight="Discerning Travellers"
-          subtitle="Real experiences from the families, executives and explorers who travel with HLT."
+          subtitle="Real experiences from families, pilgrims and travellers across Indore, Ujjain and Madhya Pradesh."
         />
       </div>
 

@@ -69,7 +69,7 @@ export default function SocialProof() {
               Leave a 5★ Review on Google
             </h3>
             <p className="mt-2 text-sm text-navy/60">
-              Takes less than a minute — share your Happy Luxe Travels experience with everyone.
+              Takes less than a minute — share your Maa Shardha Tour and Taxi Service experience with everyone.
             </p>
 
             <span className="mt-6 inline-flex items-center gap-2 rounded-full bg-navy-deep px-6 py-3 text-sm font-semibold text-white shadow-soft transition-all group-hover:shadow-glass-lg">
@@ -94,12 +94,12 @@ export default function SocialProof() {
               Recommend Us to Friends & Family
             </h3>
             <p className="mt-2 text-sm text-white/60">
-              Know someone planning a trip? Send them our way — we'll make sure they travel happy.
+              Know someone planning a trip or Ujjain pilgrimage? Send them our way — we'll make sure they travel in comfort.
             </p>
 
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <a
-                href={whatsappLink('Hey! I had an amazing experience with Happy Luxe Travels. Check them out for your next trip! 🚌✨')}
+                href={whatsappLink('Hey! I had an amazing trip with Maa Shardha Tour and Taxi Service Indore. Check them out for your next trip! 🚖✨')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-white shadow-[0_8px_24px_-8px_rgba(37,211,102,0.5)] transition hover:brightness-110"

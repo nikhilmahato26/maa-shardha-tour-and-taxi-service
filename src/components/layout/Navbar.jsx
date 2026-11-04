@@ -26,7 +26,7 @@ export default function Navbar() {
         }`}
       >
         <div className="container-x flex items-center justify-between">
-          <a href="#home" aria-label="Happy Luxe Travels home">
+          <a href="#home" aria-label="Maa Shardha Tour and Taxi Service home">
             <Logo />
           </a>
 

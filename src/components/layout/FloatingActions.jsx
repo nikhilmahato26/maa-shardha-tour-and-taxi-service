@@ -23,20 +23,22 @@ export default function FloatingActions() {
         Book Now
       </a>
 
-      <a
-        href={business.instagramUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram Happy Luxe Travels"
-        className="flex h-14 w-14 items-center justify-center rounded-full text-white shadow-[0_10px_30px_-8px_rgba(193,53,132,0.6)] transition-transform hover:scale-105"
-        style={{ background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)' }}
-      >
-        <FaInstagram className="h-6 w-6" />
-      </a>
+      {business.instagramUrl && (
+        <a
+          href={business.instagramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Instagram ${business.name}`}
+          className="flex h-14 w-14 items-center justify-center rounded-full text-white shadow-[0_10px_30px_-8px_rgba(193,53,132,0.6)] transition-transform hover:scale-105"
+          style={{ background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)' }}
+        >
+          <FaInstagram className="h-6 w-6" />
+        </a>
+      )}
 
       <a
         href={telLink()}
-        aria-label="Call Happy Luxe Travels"
+        aria-label={`Call ${business.name}`}
         className="relative flex h-14 w-14 items-center justify-center rounded-full bg-gold-sheen text-navy shadow-gold transition-transform hover:scale-105"
       >
         <span className="absolute inset-0 animate-pulse-ring rounded-full bg-gold/50" />
@@ -47,7 +49,7 @@ export default function FloatingActions() {
         href={whatsappLink(GENERAL_ENQUIRY)}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="WhatsApp Happy Luxe Travels"
+        aria-label={`WhatsApp ${business.name}`}
         className="relative flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_10px_30px_-8px_rgba(37,211,102,0.7)] transition-transform hover:scale-105"
       >
         <span className="absolute inset-0 animate-pulse-ring rounded-full bg-[#25D366]/50" />
