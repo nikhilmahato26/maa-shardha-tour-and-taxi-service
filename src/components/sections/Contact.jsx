@@ -56,7 +56,7 @@ export default function Contact() {
       href: `tel:${p.tel}`,
     })),
     { icon: Mail, label: 'Email', value: business.email, href: mailLink() },
-    { icon: MapPin, label: 'Office Address', value: business.address },
+    { icon: MapPin, label: 'Office Address', value: business.address, href: business.googleMapsUrl },
     { icon: Globe, label: 'Website', value: business.website, href: `https://${business.website}` },
     { icon: Clock, label: 'Hours', value: business.hours },
   ];

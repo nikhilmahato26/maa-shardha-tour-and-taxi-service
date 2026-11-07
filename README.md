@@ -6,6 +6,7 @@ A modern, high-conversion **tour & taxi service** website for
 - **Phone**: +91 70000 23165, +91 91656 00957
 - **Email**: maashardatourandtaxiservice@gmail.com
 - **Address**: 965 Shree Krishna Enclave, Ujjain Road, Indore, MP
+- **Google Profile / Maps**: https://share.google/Rn0litCh4Img1ifzT
 
 ### 🚘 Vehicle Fleet & Tariff (250 km / day minimum)
 | Vehicle | Daily Rate | Per Km Rate |

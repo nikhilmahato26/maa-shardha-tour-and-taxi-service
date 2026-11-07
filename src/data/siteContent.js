@@ -18,6 +18,8 @@ export const business = {
   website: 'www.maashardhatourandtaxiservice.com',
   address: '965 Shree Krishna Enclave, Ujjain Road, Indore, MP',
   city: 'Indore, Madhya Pradesh',
+  googleReviewUrl: 'https://share.google/Rn0litCh4Img1ifzT',
+  googleMapsUrl: 'https://share.google/Rn0litCh4Img1ifzT',
   hours: 'Available 24 / 7',
 };
 
